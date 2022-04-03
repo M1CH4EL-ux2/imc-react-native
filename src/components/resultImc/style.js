@@ -2,17 +2,28 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
    resultBox: {
-    flex: 1,
-    alignItems: "center",
-    marginTop: 20
+      flex: 1,
+      alignItems: "center",
+      marginTop: 20
    },
    result: {
-    marginTop:40,
-    backgroundColor: "rgba(255, 255, 255, .3)",
-    padding: 20,
-    fontSize: 18,
-    borderRadius: 3,
-    fontWeight: "bold"
+      marginTop: 5,
+      fontSize: 35,
+      borderRadius: 3,
+      fontWeight: "bold"
+   },
+   boxShareButton: {
+      margin: 20
+   },
+   shared: {
+      backgroundColor: "#1877f2",
+      borderRadius: 50,
+      padding: 5
+   },
+   sharedText: {
+      color: "#ffffff",
+      fontWeight: "bold",
+      paddingHorizontal: 20
    }
 });
 
